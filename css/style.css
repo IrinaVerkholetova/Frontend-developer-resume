@@ -1,15 +1,16 @@
 .container-fluid{
   padding: 0;
-  background-image: url(../img/fon1.jpg);
+  background-image: url(../img/fon11.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
 
 .navigation{
-  background-color: rgba(44, 122, 131, 0.583);
+  background-color: rgba(44, 122, 131);
   color: #f7f3ea;
   padding: 0;
   margin: 0;
+  font-family: 'Balsamiq Sans', cursive;
 }
 
   .menu{
@@ -48,14 +49,16 @@
     font-weight: 500;
   }
 
-  h1{
+  .firstpage h1{
     color: white !important;
+    font-weight: 700;
+    font-family: 'Balsamiq Sans', cursive;
     padding-top: 5%;
     padding-bottom: 5%;
   }
   .arrow {
     position: absolute;
-    top: 90%;
+    top: 95%;
     margin-left: -8 px;
   }
   .align-items-end {
@@ -63,41 +66,52 @@
     align-items: flex-end !important;
   }
 
-
 .aboutme{
   padding-top: 5%;
   padding-bottom: 5%;
 }
-.uk-card{
-  background-color: rgba(44, 122, 131, 0.583) !important;
-  -webkit-box-shadow: 9px 9px 15px 0px rgba(48, 48, 48, 0.58)!important;
-  -moz-box-shadow:    9px 9px 15px 0px rgba(48, 48, 48, 0.58)!important;
-  box-shadow:         9px 9px 15px 0px rgba(48, 48, 48, 0.58)!important;
-}
-
-.uk-card-default {
-  color: white !important;
-}
-.uk-card-title {
-  color: white !important;
-}
+  .aboutme h2{
+    color: rgb(41, 141, 141);
+    font-weight: 700;
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+  }
+  .uk-card{
+    background-color: rgba(44, 122, 131, 0.8) !important;
+    -webkit-box-shadow: 9px 9px 15px 0px rgba(48, 48, 48, 0.58)!important;
+    -moz-box-shadow:    9px 9px 15px 0px rgba(48, 48, 48, 0.58)!important;
+    box-shadow:         9px 9px 15px 0px rgba(48, 48, 48, 0.58)!important;
+  }
+  .uk-card-default {
+    color: white !important;
+  }
+  .uk-card-title {
+    color: white !important;
+  }
 
 .websites{
   padding-top: 5%;
   padding-bottom: 5%;
 }
-  h2{
+  .websites h2{
     color: rgb(41, 141, 141) !important;
     text-align: center;
+    font-weight: 700;
+    font-family: 'Balsamiq Sans', cursive;
   }
   .websites p{
     color:rgb(41, 141, 141) !important;
     text-align: center;
+  } 
+  .uk-grid {
+    margin-left: 0px !important;
+  }
+  .uk-grid>* {
+    padding-left: 0px !important;
   }
   .transform{
-    background-color: rgba(44, 122, 131, 0.583);
+    background-color: rgba(44, 122, 131, 0.8);
     transition: all .3s linear;
-    
   }
   .transform:hover{
     transform: scale(1.5);
@@ -115,10 +129,15 @@
 
 
 .development{
-  /* background-color: rgb(161, 75, 151); */
   padding-top: 5%;
   padding-bottom: 5%;
 }
+  .development h2{
+    color: rgb(41, 141, 141) !important;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Balsamiq Sans', cursive;
+  }
   .color_progress{
     background-color: rgb(41, 141, 141);
   }
@@ -127,7 +146,6 @@
     background-image: url(../img/technology.jpg);
     background-size: cover;
     height: 50vh;
-    width: 90%;
   }
 
   iframe{
@@ -138,8 +156,8 @@
   }
 
   .form-contact{
-      background-color: rgb(41, 141, 141);
-      color: white !important;
+    background-color: rgb(41, 141, 141);
+    color: white !important;
   }
   .form-control{
     border-color: transparent;
@@ -168,15 +186,15 @@
   }
   .button{
     text-transform: uppercase;
-    width: 80%;
+    width: 100%;
     color: #f7f3ea !important;
     text-transform: uppercase;
     padding: 2% 0 2% 0;
     border-color: rgb(41, 141, 141);
     background-color: rgb(41, 141, 141);
-      -webkit-box-shadow: 9px 9px 15px 0px rgba(48, 48, 48, 0.85);
-      -moz-box-shadow:    9px 9px 15px 0px rgba(48, 48, 48, 0.85);
-      box-shadow:         9px 9px 15px 0px rgba(48, 48, 48, 0.85);
+    -webkit-box-shadow: 9px 9px 15px 0px rgba(48, 48, 48, 0.85);
+    -moz-box-shadow:    9px 9px 15px 0px rgba(48, 48, 48, 0.85);
+    box-shadow:         9px 9px 15px 0px rgba(48, 48, 48, 0.85);
   }
   .button:hover{
     background-color: rgb(41, 141, 141);
@@ -186,30 +204,27 @@
   .button:focus{
     background-color: rgb(41, 141, 141);
     border-color: rgb(41, 141, 141);
-      -webkit-box-shadow: 9px 9px 15px 0px rgba(48, 48, 48, 0.85);
-      -moz-box-shadow:    9px 9px 15px 0px rgba(48, 48, 48, 0.85);
-      box-shadow:         9px 9px 15px 0px rgba(48, 48, 48, 0.85);
+    -webkit-box-shadow: 9px 9px 15px 0px rgba(48, 48, 48, 0.85);
+    -moz-box-shadow:    9px 9px 15px 0px rgba(48, 48, 48, 0.85);
+    box-shadow:         9px 9px 15px 0px rgba(48, 48, 48, 0.85);
   }
 
   .picture{
   background-image: url(../img/fon7.jpg);
   background-size: cover;
   height: 50vh;
-  width: 90%;
   padding-top: 6%;
   padding-left: 6%
   }
-
   .picture-img img{
-    width: 200px;
+    width: 250px;
   }
 
 
 .footer{
-  background-color: rgba(44, 122, 131, 0.583);
+  background-color: rgba(44, 122, 131, 0.8);
   padding-top: 1%;
   padding-bottom: 1%;
-  text-align: center;
   color: white;
 }
 .footer a{
